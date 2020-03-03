@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArchitecture.Application", "CleanArchitecture.Application", "{528DEB3E-F4EC-473B-971B-16650713AA97}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{528DEB3E-F4EC-473B-971B-16650713AA97}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArchitecture.Domain", "CleanArchitecture.Domain", "{174827B3-CE07-423D-A17E-83A89E51840A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{174827B3-CE07-423D-A17E-83A89E51840A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArchitecture.Infra.IOC", "CleanArchitecture.Infra.IOC", "{906A5D01-CE2D-448E-BEC3-6C8107CD0BD8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.IOC", "Infra.IOC", "{906A5D01-CE2D-448E-BEC3-6C8107CD0BD8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArchitecture.Infra.Data", "CleanArchitecture.Infra.Data", "{53B07C15-8EF6-47A8-950E-70CF69395587}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Data", "Infra.Data", "{53B07C15-8EF6-47A8-950E-70CF69395587}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArchitecture.UI.Mvc", "CleanArchitecture.UI.Mvc", "{942995BC-630D-4505-83AF-B9FEC4D43DF3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{942995BC-630D-4505-83AF-B9FEC4D43DF3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Mvc", "CleanArchitecture.Mvc\CleanArchitecture.Mvc.csproj", "{3CB177B3-7429-4AF7-AC28-77415EF7EDC4}"
 EndProject
