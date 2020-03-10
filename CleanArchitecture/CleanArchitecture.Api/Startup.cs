@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
+using CleanArchitecture.Api.Configurations;
 using CleanArchitecture.Infra.Data.Context;
 using CleanArchitecture.Infra.IOC;
 using MediatR;
@@ -42,6 +44,7 @@ namespace CleanArchitecture.Api
             c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "University Api", Version = "v1" })
             );
 
+            services.RegisterAutoMapper();
             RegisterServices(services);
         }
 

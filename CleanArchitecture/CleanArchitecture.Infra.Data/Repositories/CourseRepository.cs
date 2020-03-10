@@ -3,6 +3,7 @@ using CleanArchitecture.Domain.Models;
 using CleanArchitecture.Infra.Data.Context;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace CleanArchitecture.Infra.Data.Repositories
@@ -22,7 +23,7 @@ namespace CleanArchitecture.Infra.Data.Repositories
             _context.SaveChanges();
         }
 
-        public IEnumerable<Course> GetCourses()
+        public IQueryable<Course> GetCourses()
         {
             return _context.Courses;
         }
