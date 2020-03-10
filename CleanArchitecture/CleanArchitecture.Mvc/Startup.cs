@@ -14,6 +14,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using CleanArchitecture.Infra.Data.Context;
 using CleanArchitecture.Infra.IOC;
+using MediatR;
 
 namespace CleanArchitecture.Mvc
 {
@@ -40,6 +41,9 @@ namespace CleanArchitecture.Mvc
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+
+            services.AddMediatR(typeof(Startup));
 
             RegisterServices(services);
         }
